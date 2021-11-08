@@ -6,7 +6,5 @@
   "scripts": {
     "test-just": "node --experimental-modules index.mjs"
   },
-  "dependencies": {
-    "just-diff": "4.1.2"
-  }
+  "dependencies": {}
 }

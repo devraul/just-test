@@ -10,7 +10,5 @@
   "devDependencies": {
     "vite": "^2.6.4"
   },
-  "dependencies": {
-    "just-diff": "4.1.2"
-  }
+  "dependencies": {}
 }
