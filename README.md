@@ -55,3 +55,13 @@ The following command update "just-diff" dependency at root level. This will hav
 ```
 pnpm add -W just-diff@4.1.0
 ```
+
+## Publishing "just-\*" locally
+
+Of course you don't want to push to NPM the test versions.
+
+To avoid that you can use verdaccio, a npm proxy that you can run locally and publish packages to there.
+
+I have a blog post explaining how to use and you can check it here: https://www.raulmelo.dev/blog/test-publishing-js-package-locally
+
+> Don't forget to always publish with the flag `--registry http://0.0.0.0:4873/` and declaring this registry in the `.npmrc` of this repository.
