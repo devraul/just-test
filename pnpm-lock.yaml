@@ -3,7 +3,10 @@ lockfileVersion: 5.3
 importers:
 
   .:
-    specifiers: {}
+    specifiers:
+      just-diff: 4.1.2
+    dependencies:
+      just-diff: 4.1.2
 
   apps/nextjs-app:
     specifiers:
@@ -11,11 +14,13 @@ importers:
       '@types/react': 17.0.34
       eslint: '7'
       eslint-config-next: 12.0.3
+      just-diff: 4.1.2
       next: 12.0.3
       react: 17.0.2
       react-dom: 17.0.2
       typescript: 4.4.4
     dependencies:
+      just-diff: 4.1.2
       next: 12.0.3_react-dom@17.0.2+react@17.0.2
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -49,9 +54,11 @@ importers:
       '@nuxt/types': ^2.15.7
       '@nuxt/typescript-build': ^2.1.0
       core-js: ^3.15.1
+      just-diff: 4.1.2
       nuxt: ^2.15.7
     dependencies:
       core-js: 3.19.1
+      just-diff: 4.1.2
       nuxt: 2.15.8
     devDependencies:
       '@nuxt/types': 2.15.8
@@ -63,18 +70,23 @@ importers:
       '@lukeed/uuid': ^2.0.0
       '@sveltejs/kit': next
       cookie: ^0.4.1
+      just-diff: 4.1.2
       svelte: ^3.34.0
     dependencies:
       '@fontsource/fira-mono': 4.5.0
       '@lukeed/uuid': 2.0.0
       cookie: 0.4.1
+      just-diff: 4.1.2
     devDependencies:
       '@sveltejs/kit': 1.0.0-next.195_svelte@3.44.1
       svelte: 3.44.1
 
   apps/vite-vanilla:
     specifiers:
+      just-diff: 4.1.2
       vite: ^2.6.4
+    dependencies:
+      just-diff: 4.1.2
     devDependencies:
       vite: 2.6.13
 

@@ -4,9 +4,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "test-just": "vite build",
     "serve": "vite preview"
   },
   "devDependencies": {
     "vite": "^2.6.4"
+  },
+  "dependencies": {
+    "just-diff": "4.1.2"
   }
 }
