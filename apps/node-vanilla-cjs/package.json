@@ -1,0 +1,12 @@
+{
+  "name": "node-vanilla-cjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test-just": "node index.js"
+  },
+  "dependencies": {
+    "just-diff": "4.1.2"
+  }
+}

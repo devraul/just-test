@@ -1,0 +1,13 @@
+{
+  "name": "node-vanilla-esm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test-just": "node --experimental-modules index.js"
+  },
+  "dependencies": {
+    "just-diff": "4.1.2"
+  }
+}

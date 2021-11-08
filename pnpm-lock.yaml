@@ -1,0 +1,30 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers: {}
+
+  apps/node-vanilla-cjs:
+    specifiers:
+      just-diff: 4.1.2
+    dependencies:
+      just-diff: 4.1.2
+
+  apps/node-vanilla-esm:
+    specifiers:
+      just-diff: 4.1.2
+    dependencies:
+      just-diff: 4.1.2
+
+  apps/node-vanilla-mjs:
+    specifiers:
+      just-diff: 4.1.2
+    dependencies:
+      just-diff: 4.1.2
+
+packages:
+
+  /just-diff/4.1.2:
+    resolution: {integrity: sha512-zfbu6etAdrfoqcuMJcCQBRi8IC4qUIy5knR6eFfqzOeP3S3ZOmnTYSta6RFbFinFazFpR9BoXX+SJwZkrXCvGA==}
+    dev: false

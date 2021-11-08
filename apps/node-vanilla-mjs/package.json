@@ -1,0 +1,12 @@
+{
+  "name": "node-vanilla-mjs",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test-just": "node --experimental-modules index.mjs"
+  },
+  "dependencies": {
+    "just-diff": "4.1.2"
+  }
+}
